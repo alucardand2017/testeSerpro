@@ -95,6 +95,8 @@ Questão 5: No código a seguir, identifique e corrija os erros que impedem o co
     }
 ```
 * Questão 6: Refatore o código acima para que esteja de acordo com as boas práticas de desenvolvimento, mantendo a sua funcionalidade. (Refatoração e Clean Code)
+
+* RESPOSTA QUESTÃO 6
 ```Java
 package dominio;
 
@@ -147,6 +149,8 @@ public class AlunoQuestao6 {
 ```
   
 * Questão 7: Desenvolva um teste unitário para validar a funcionalidade de cálculo da média das notas de um aluno. (Elaboração de testes)
+
+* RESPOSTA QUESTAO 7
 ```Java
 import dominio.AlunoQuestao6;
 import org.junit.jupiter.api.Assertions;
