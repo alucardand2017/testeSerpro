@@ -11,18 +11,20 @@ public class HomeView {
         Scanner teclado = new Scanner(System.in);
         boolean loopPrograma = true;
         while (loopPrograma) {
-            System.out.println("DIGITE UMA DAS OPÇÕES: \n1) listar alunos \n2) inserir aluno \n3) \n4) \n5) \n6) Sair");
+            System.out.println("DIGITE UMA DAS OPÇÕES: \n1) inserir novo aluno \n2) listar alunos \n3) inserir notas \n4) mostrar media aluno \n6) Sair");
             String opcaoMenu1 = teclado.next();
             switch (opcaoMenu1) {
                 case "1":
-                    alunoService.listarAlunos();
-                    break;
-                case "2":
                     alunoService.cadastrarAluno();
                     break;
+                case "2":
+                    alunoService.listarAlunos();
+                    break;
                 case "3":
+                    alunoService.insercaoNoBoletim();
                     break;
                 case "4":
+                    alunoService.mostrarMediaAluno();
                     break;
                 case "5":
                     break;
@@ -30,7 +32,7 @@ public class HomeView {
                     loopPrograma = false;
                     break;
             }
-            System.out.println("Saindo do programa");
         }
+        System.out.println("Saindo do programa");
     }
 }

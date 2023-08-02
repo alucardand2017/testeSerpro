@@ -3,12 +3,15 @@ package dominio;
 public class Aluno {
     private String nome;
     private int matricula;
-    public Aluno(String nome, int numMatricula) {
-    }
+    public Boletim boletim = new Boletim();
 
+    public Aluno(String nome, int numMatricula) {
+        this.nome = nome;
+        this.matricula = numMatricula;
+    }
     @Override
     public String toString() {
-        return "Nome: "+getNome()+" | Matricula: " + getMatricula();
+        return  getMatricula() +" | " + getNome() + " | " + boletim;
     }
 
     public String getNome() {
