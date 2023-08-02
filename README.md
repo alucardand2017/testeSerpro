@@ -147,6 +147,22 @@ public class AlunoQuestao6 {
 ```
   
 * Questão 7: Desenvolva um teste unitário para validar a funcionalidade de cálculo da média das notas de um aluno. (Elaboração de testes)
+```Java
+import dominio.AlunoQuestao6;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class AlunoQuestao6Test {
+    @Test
+    public void CalculaAMediaDeNotasDeUmAluno(){
+        AlunoQuestao6 alunoQuestao6 = new AlunoQuestao6();
+        alunoQuestao6.setNotaCiencias(10);
+        alunoQuestao6.setNotaMatematica(10);
+        alunoQuestao6.setNotaPortugues(10);
+        Assertions.assertTrue(alunoQuestao6.calculaMedia() == 10);
+    }
+}
+```
 * Instruções:
 Utilize a linguagem Java para o desenvolvimento da solução.
 Atenção à sintaxe e boas práticas de programação.
