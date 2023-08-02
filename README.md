@@ -95,6 +95,57 @@ Questão 5: No código a seguir, identifique e corrija os erros que impedem o co
     }
 ```
 * Questão 6: Refatore o código acima para que esteja de acordo com as boas práticas de desenvolvimento, mantendo a sua funcionalidade. (Refatoração e Clean Code)
+```Java
+package dominio;
+
+public class AlunoQuestao6 {
+        private String nomeAluno;
+        private int matriculaAluno;
+        private double notaMatematica, notaPortugues, notaCiencias;
+
+        public AlunoQuestao6(){
+
+        }
+        public AlunoQuestao6(String nomeAluno, int matriculaAluno) {
+            this.nomeAluno = nomeAluno;
+            this.matriculaAluno = matriculaAluno;
+        }
+        public double getNotaMatematica() {
+            return notaMatematica;
+        }
+        public void setNotaMatematica(double notaMatematica) {
+            this.notaMatematica = notaMatematica;
+        }
+        public double getNotaPortugues() {
+            return notaPortugues;
+        }
+        public void setNotaPortugues(double notaPortugues) {
+            this.notaPortugues = notaPortugues;
+        }
+        public double getNotaCiencias() {
+            return notaCiencias;
+        }
+        public void setNotaCiencias(double notaCiencias) {
+            this.notaCiencias = notaCiencias;
+        }
+        public String getNome() {
+            return nomeAluno;
+        }
+        public void setNome(String nome) {
+            this.nomeAluno = nome;
+        }
+        public int getMatricula() {
+            return matriculaAluno;
+        }
+        public void setMatricula(int matricula) {
+            this.matriculaAluno = matricula;
+        }
+        public double calculaMedia() {
+            return (notaMatematica + notaPortugues + notaCiencias) / 3;
+        }
+
+```
+  
 * Questão 7: Desenvolva um teste unitário para validar a funcionalidade de cálculo da média das notas de um aluno. (Elaboração de testes)
 * Instruções:
 Utilize a linguagem Java para o desenvolvimento da solução.
