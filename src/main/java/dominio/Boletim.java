@@ -9,7 +9,7 @@ public class Boletim {
     private float historia;
     @Override
     public String toString() {
-        return "MAT: "+matematica+" | POR: "+portugues+" | HIS: "+historia+" | INF: "+informatica + " | média = "+ mediaFinalAluno();
+        return "MAT: "+matematica+" | POR: "+portugues+" | HIS: "+historia+" | INF: "+informatica + " | média = "+ mediaFinalAluno() + " | " + situacaoAluno(mediaFinalAluno());
     }
 
     public float getMatematica() {
@@ -46,5 +46,11 @@ public class Boletim {
 
     public float mediaFinalAluno(){
         return  ((matematica+portugues+historia+informatica)/4);
+    }
+
+    public String situacaoAluno(float media){
+        if(media > 7)
+            return "Aprovado";
+        return "Em recuperação";
     }
 }

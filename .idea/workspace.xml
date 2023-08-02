@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da6641b5-2dce-48df-b64b-edb5dd19219c" name="Changes" comment="primeiro commit - estrutura de pastas, implantacao inicial de aluno e menus">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/AlunoQuestao6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/Boletim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AlunoQuestao6Test.java" afterDir="false" />
+    <list default="true" id="da6641b5-2dce-48df-b64b-edb5dd19219c" name="Changes" comment="Topicos 2,3,4,5,6 - Implementaçao das funcionalidades de listar alunos, mostrar média, inserir notas, Idendificar erros do dominio, Implementar teste unitario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Boletim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Boletim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/services/AlunoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/AlunoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/HomeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/HomeView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AlunoQuestao6Test">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Principal" />
       <module name="ProvaPraticaSerpro1" />
@@ -70,8 +64,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AlunoQuestao6Test" />
         <item itemvalue="Application.Principal" />
+        <item itemvalue="JUnit.AlunoQuestao6Test" />
       </list>
     </recent_temporary>
   </component>
@@ -91,11 +85,19 @@
       <option name="project" value="LOCAL" />
       <updated>1690932016675</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Topicos 2,3,4,5,6 - Implementaçao das funcionalidades de listar alunos, mostrar média, inserir notas, Idendificar erros do dominio, Implementar teste unitario">
+      <created>1690943900216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690943900216</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro commit - estrutura de pastas, implantacao inicial de aluno e menus" />
-    <option name="LAST_COMMIT_MESSAGE" value="primeiro commit - estrutura de pastas, implantacao inicial de aluno e menus" />
+    <MESSAGE value="Topicos 2,3,4,5,6 - Implementaçao das funcionalidades de listar alunos, mostrar média, inserir notas, Idendificar erros do dominio, Implementar teste unitario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topicos 2,3,4,5,6 - Implementaçao das funcionalidades de listar alunos, mostrar média, inserir notas, Idendificar erros do dominio, Implementar teste unitario" />
   </component>
 </project>

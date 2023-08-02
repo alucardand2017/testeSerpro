@@ -10,17 +10,19 @@ public class AlunoService {
     Scanner teclado = new Scanner(System.in);
 
     public void cadastrarAluno() {
+        Scanner cad = new Scanner(System.in);
+
         System.out.print("Nome do Aluno: ");
-        String nome = teclado.nextLine().trim();
+        String nome = cad.nextLine();
         System.out.print("Matricula do Aluno: ");
-        int NumMatricula = teclado.nextInt();
+        int NumMatricula = cad.nextInt();
         Aluno aluno = new Aluno(nome, NumMatricula);
         lista.add(aluno);
         System.out.println("Aluno cadastrado com sucesso! \n ------------------------------");
     }
 
     public void listarAlunos() {
-        System.out.println("\nM | Nome | matematica | portugues | informatica | historia");
+        System.out.println("\nM | Nome | matematica | portugues | informatica | historia | média final | situação");
         for (Aluno aluno : lista) {
             System.out.println(aluno);
         }
@@ -33,13 +35,13 @@ public class AlunoService {
             System.out.println("Matricula não encontrada");
             return;
         }else {
-            System.out.println("MAT = ");
+            System.out.print("MAT = ");
             a.boletim.setMatematica(teclado.nextFloat());
-            System.out.println("POR = ");
+            System.out.print("POR = ");
             a.boletim.setPortugues(teclado.nextFloat());
-            System.out.println("HIS = ");
+            System.out.print("HIS = ");
             a.boletim.setHistoria(teclado.nextFloat());
-            System.out.println("INF = ");
+            System.out.print("INF = ");
             a.boletim.setInformatica(teclado.nextFloat());
         }
         System.out.println("Notas cadastradas com sucesso! \n ------------------------------");
